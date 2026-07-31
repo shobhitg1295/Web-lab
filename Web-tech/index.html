@@ -1,1 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Entry Form</title>
 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            width: 450px;
+            margin: 50px auto;
+            background-color: rgb(248, 241, 223);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgb(17, 81, 231);
+        }
+
+        h2 {
+            text-align: center;
+            color: #0d53ea;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td {
+            padding: 8px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #f42d2d;
+            border-radius: 5px;
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            width: 100px;
+            padding: 10px;
+            margin: 10px 5px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #0e0f10;
+        }
+
+        .buttons {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Student Entry Form</h2>
+
+    <form>
+        <table>
+
+            <tr>
+                <td>Student Name</td>
+                <td><input type="text" name="name" required></td>
+            </tr>
+
+            <tr>
+                <td>Roll Number</td>
+                <td><input type="text" name="roll" required></td>
+            </tr>
+
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+                </td>
+            </tr>
+
+            <tr>
+                <td>Date of Birth</td>
+                <td><input type="date" name="dob"></td>
+            </tr>
+
+            <tr>
+                <td>Course</td>
+                <td>
+                    <select>
+                        <option>Select Course</option>
+                        <option>BCA</option>
+                        <option>B.Sc</option>
+                        <option>B.Com</option>
+                        <option>B.Tech</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+
+            <tr>
+                <td>Phone Number</td>
+                <td><input type="tel" name="phone"></td>
+            </tr>
+
+            <tr>
+                <td>Address</td>
+                <td><textarea rows="4"></textarea></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" class="buttons">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</div>
+
+</body>
+</html>
