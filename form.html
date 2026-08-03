@@ -1,245 +1,144 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>ABC Institute of Technology</title>
+    <title>Student Entry Form</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            width: 450px;
+            margin: 50px auto;
+            background-color: rgb(248, 241, 223);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgb(17, 81, 231);
+        }
+
+        h2 {
+            text-align: center;
+            color: #0d53ea;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td {
+            padding: 8px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #f42d2d;
+            border-radius: 5px;
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            width: 100px;
+            padding: 10px;
+            margin: 10px 5px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #0e0f10;
+        }
+
+        .buttons {
+            text-align: center;
+        }
+    </style>
 </head>
 
-<body bgcolor="lightblue">
+<body>
 
-    <!-- Header -->
-    <center>
-        <h1>ABC INSTITUTE OF TECHNOLOGY</h1>
-        <h3>Affiliated to XYZ University | Approved by AICTE</h3>
-        <hr width="100%">
-    </center>
-
-    <!-- Navigation Menu -->
-    <table border="1" width="100%" bgcolor="lightgray">
-        <tr align="center">
-            <td><a href="#">Home</a></td>
-            <td><a href="#">About Us</a></td>
-            <td><a href="#">Departments</a></td>
-            <td><a href="#">Courses</a></td>
-            <td><a href="#">Admissions</a></td>
-            <td><a href="#">Faculty</a></td>
-            <td><a href="#">Gallery</a></td>
-            <td><a href="#">Contact Us</a></td>
-        </tr>
-    </table>
-
-    <br>
-
-    <!-- Welcome Section -->
-    <h2>Welcome to ABC Institute of Technology</h2>
-
-    <p>
-        ABC Institute of Technology is one of the leading educational institutions
-        committed to providing quality education in Engineering, Technology, and
-        Management. Our institute offers modern laboratories, experienced faculty,
-        digital classrooms, and excellent placement opportunities.
-    </p>
-
-    <hr>
-
-    <!-- Department Section -->
-    <h2>Departments</h2>
-
-    <table border="1" width="100%" cellpadding="8">
-        <tr bgcolor="yellow">
-            <th>Department</th>
-            <th>Head of Department</th>
-            <th>Courses Offered</th>
-        </tr>
-
-        <tr>
-            <td>Computer Science & Engineering</td>
-            <td>Dr. A. Sharma</td>
-            <td>B.Tech, M.Tech</td>
-        </tr>
-
-        <tr>
-            <td>Information Technology</td>
-            <td>Dr. R. Gupta</td>
-            <td>B.Tech</td>
-        </tr>
-
-        <tr>
-            <td>Electronics & Communication Engineering</td>
-            <td>Dr. S. Verma</td>
-            <td>B.Tech, M.Tech</td>
-        </tr>
-
-        <tr>
-            <td>Electrical Engineering</td>
-            <td>Dr. P. Singh</td>
-            <td>B.Tech</td>
-        </tr>
-
-        <tr>
-            <td>Mechanical Engineering</td>
-            <td>Dr. V. Kumar</td>
-            <td>B.Tech, Diploma</td>
-        </tr>
-
-        <tr>
-            <td>Civil Engineering</td>
-            <td>Dr. N. Mishra</td>
-            <td>B.Tech, Diploma</td>
-        </tr>
-
-        <tr>
-            <td>MBA</td>
-            <td>Dr. R. Mehta</td>
-            <td>MBA</td>
-        </tr>
-    </table>
-
-    <hr>
-
-    <!-- Facilities -->
-    <h2>Campus Facilities</h2>
-
-    <ul>
-        <li>Smart Classrooms</li>
-        <li>Computer Laboratories</li>
-        <li>Central Library</li>
-        <li>Wi-Fi Enabled Campus</li>
-        <li>Hostel Facility</li>
-        <li>Transport Facility</li>
-        <li>Sports Complex</li>
-        <li>Medical Facility</li>
-        <li>Cafeteria</li>
-        <li>Auditorium</li>
-    </ul>
-
-    <hr>
-
-    <!-- Courses -->
-    <h2>Courses Offered</h2>
-
-    <ol>
-        <li>B.Tech in Computer Science Engineering</li>
-        <li>B.Tech in Information Technology</li>
-        <li>B.Tech in Electronics & Communication</li>
-        <li>B.Tech in Mechanical Engineering</li>
-        <li>B.Tech in Civil Engineering</li>
-        <li>B.Tech in Electrical Engineering</li>
-        <li>M.Tech</li>
-        <li>MBA</li>
-        <li>Diploma Courses</li>
-    </ol>
-
-    <hr>
-
-    <!-- Placement -->
-    <h2>Placement Highlights</h2>
-
-    <table border="1" width="70%">
-        <tr bgcolor="lightgreen">
-            <th>Company</th>
-            <th>Package (LPA)</th>
-        </tr>
-
-        <tr>
-            <td>TCS</td>
-            <td>4.5</td>
-        </tr>
-
-        <tr>
-            <td>Infosys</td>
-            <td>5.2</td>
-        </tr>
-
-        <tr>
-            <td>Wipro</td>
-            <td>4.2</td>
-        </tr>
-
-        <tr>
-            <td>Accenture</td>
-            <td>6.0</td>
-        </tr>
-
-        <tr>
-            <td>Capgemini</td>
-            <td>5.5</td>
-        </tr>
-    </table>
-
-    <hr>
-
-    <!-- Admission Form -->
-    <h2>Admission Enquiry</h2>
+<div class="container">
+    <h2>Student Entry Form</h2>
 
     <form>
+        <table>
 
-        Name:
-        <input type="text" name="name"><br><br>
+            <tr>
+                <td>Student Name</td>
+                <td><input type="text" name="name" required></td>
+            </tr>
 
-        Father's Name:
-        <input type="text" name="fname"><br><br>
+            <tr>
+                <td>Roll Number</td>
+                <td><input type="text" name="roll" required></td>
+            </tr>
 
-        Gender:
-        <input type="radio" name="gender">Male
-        <input type="radio" name="gender">Female
-        <br><br>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+                </td>
+            </tr>
 
-        Department:
-        <select>
-            <option>CSE</option>
-            <option>IT</option>
-            <option>ECE</option>
-            <option>EE</option>
-            <option>ME</option>
-            <option>CE</option>
-        </select>
+            <tr>
+                <td>Date of Birth</td>
+                <td><input type="date" name="dob"></td>
+            </tr>
 
-        <br><br>
+            <tr>
+                <td>Course</td>
+                <td>
+                    <select>
+                        <option>Select Course</option>
+                        <option>BCA</option>
+                        <option>B.Sc</option>
+                        <option>B.Com</option>
+                        <option>B.Tech</option>
+                    </select>
+                </td>
+            </tr>
 
-        Email:
-        <input type="email">
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email"></td>
+            </tr>
 
-        <br><br>
+            <tr>
+                <td>Phone Number</td>
+                <td><input type="tel" name="phone"></td>
+            </tr>
 
-        Mobile:
-        <input type="text">
+            <tr>
+                <td>Address</td>
+                <td><textarea rows="4"></textarea></td>
+            </tr>
 
-        <br><br>
+            <tr>
+                <td colspan="2" class="buttons">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
 
-        Address:<br>
-        <textarea rows="5" cols="40"></textarea>
-
-        <br><br>
-
-        <input type="submit" value="Submit">
-        <input type="reset" value="Reset">
-
+        </table>
     </form>
-
-    <hr>
-
-    <!-- Contact -->
-    <h2>Contact Us</h2>
-
-    <p>
-        <b>ABC Institute of Technology</b><br>
-        123 Knowledge Park, New Delhi, India<br>
-        Phone: +91-9876543210<br>
-        Email: info@abcinstitute.edu<br>
-        Website: www.abcinstitute.edu
-    </p>
-
-    <hr>
-
-    <!-- Footer -->
-    <center>
-        <h4>
-            © 2026 ABC Institute of Technology |
-            All Rights Reserved
-        </h4>
-    </center>
+</div>
 
 </body>
-
 </html>
